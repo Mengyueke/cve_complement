@@ -1,0 +1,8 @@
+*.db filter=lfs diff=lfs merge=lfs -text
+data.json filter=lfs diff=lfs merge=lfs -text
+irr_data.json filter=lfs diff=lfs merge=lfs -text
+*.jsonl filter=lfs diff=lfs merge=lfs -text
+graph.json filter=lfs diff=lfs merge=lfs -text
+merge.json filter=lfs diff=lfs merge=lfs -text
+event_graph/data/graph_v2/merge.json filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
