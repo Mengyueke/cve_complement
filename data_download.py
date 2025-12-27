@@ -23,4 +23,4 @@ for record in data:
     # 将 Node 对象转为 dict（只取属性）
     vuln_ref_dict[vuln_id] = [dict(ref) for ref in refs]
 
-json.dump(vuln_ref_dict, open("./cve_complement/cve_data/cve2ref.json", "w"), indent=4)
+json.dump(vuln_ref_dict, open("./cve_complement/data/cve2ref.json", "w"), indent=4)
